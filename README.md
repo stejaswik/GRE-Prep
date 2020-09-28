@@ -8,13 +8,9 @@
 
 3. [Root Words](#rootWords)
 
-4. [Get Synonyms](#rsi)
+4. [Synonyms and Meaning](#synMeaning)
 
-5. [Get Meaning](#deductions)
-
-6. [Flash Cards](#deductions)
-
-7. [Word of the Day](#deductions)
+5. [Flash Cards and Word of the Day](#flashWOTD)
 
 <a name="starting_up"/>
 
@@ -39,32 +35,22 @@ The Sidebar let's the user go directly to a certain section of the web page. The
 The root words are configured on the left side. The right side shows derived words which convey the same meaning as the root.
 ![Root Words](first.png)
 
-In the above diagram, the stock price is clearly rising and the indicator value is going up accordingly.
+<a name="synMeaning"/>
 
-Further evidence of the stock performance can be seen by visualizing the graph in the "General Stats" section:
+#### Synonyms and Meaning
 
-![MACD analysis for BYND-2](third.png)
+The Synonyms feature returns the synonyms of an entered word.
 
-Conversely, the stock can be seen as falling when the indicator value is negative. A reversal occurs when the MACD line crosses the signal line as shown below:
+The meanings feature returns the meaning of an entered word.
 
-The stock of AMD has the following MACD values:
+![Synonyms](second.png)
 
-![MACD analysis for AMD-1](fourth.png)
+<a name="flashWOTD"/>
 
-![MACD analysis for AMD-2](fifth.png)
+#### Flash Cards and Word of the Day
 
-<a name="rsi"/>
+The Flash card feature is useful for doing a quick revision of words configured in the words.txt file. On hovering over the word, the meaning is displayed. Additionally, the pronounciation can also be heard by clicking the play audio.
 
-#### RSI
+Word of the day is a way to highlight one word every day. This will be refreshed on each page refresh.
 
-The relative strength index (RSI) is a momentum indicator that computes the strength of the stock. It measures the speed and change of price movements. RSI varies from 0 to 100. Typically, a stock is considered to be in overbought position when the RSI value is above 70, while the stock is considered to be in oversold position when the RSI falls below 30.
-
-![RSI for BYND](sixth.png)
-
-<a name="deductions"/>
-
-#### Deductions
-
-The deductions section gives an overview based on the technical analysis of MACD and RSI. As per the picture below, the MACD indicator of AMD is pointing to "SELL" while the RSI is balanced at around 40-48.
-
-![Deductions for AMD](seventh.png)
+![Synonyms](third.png)
